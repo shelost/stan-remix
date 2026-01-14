@@ -40,10 +40,10 @@ const videos = [
   },
   { 
     id: 5, 
-    src: '/tiktok_6.mp4', 
-    title: 'I SAVED TIKTOK!', 
-    pfp: '/pfp_trump.jpeg',
-    username: '@realdonaldtrump',
+    src: '/tiktok_7.mp4', 
+    title: 'This transition is 🔥 for any content creator #contentcreator #videotransition #instagramreels #reels #viral', 
+    pfp: '/pfp_monty.jpeg',
+    username: '@montylans',
     description: "I SAVED TIKTOK!",
     outperformance: 7.8
   },
@@ -776,8 +776,6 @@ const switchViewMode = async (newMode) => {
           
           <!-- Grid info section -->
           <div class="grid-info" v-show="viewMode === 'grid'">
-            <p class="grid-video-title">{{ video.title }}</p>
-            <p class="grid-date">Jan 2, 2025</p>
             <div class="grid-author-row">
               <div class="grid-author">
                 <img :src="video.pfp" class="grid-avatar" />
@@ -1362,15 +1360,17 @@ $font-family-inter: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 10px;
+        margin: 8px 0 12px 0;
       }
       
       .grid-author {
         display: flex;
         align-items: center;
         gap: 6px;
-        font-size: 12px;
-        color: #666;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -.25px;
+        color: black;
         
         .grid-avatar {
           width: 20px;

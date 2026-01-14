@@ -44,7 +44,7 @@ const videos = [
     title: 'This transition is 🔥 for any content creator #contentcreator #videotransition #instagramreels #reels #viral', 
     pfp: '/pfp_monty.jpeg',
     username: '@montylans',
-    description: "I SAVED TIKTOK!",
+    description: "This transition is 🔥 for any content creator #contentcreator #videotransition #instagramreels #reels #viral'",
     outperformance: 7.8
   },
   { 

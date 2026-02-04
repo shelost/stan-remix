@@ -897,7 +897,7 @@ $font-family-inter: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 .app {
   min-height: 100dvh;
   min-height: 100dvh;
-  background: #fff;
+  background: yellow;
   display: flex;
   flex-direction: column;
   font-family: $font-family-inter;
